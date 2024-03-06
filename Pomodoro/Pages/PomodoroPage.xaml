@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<local:BasePage
+    x:Class="Pomodoro.Pages.PomodoroPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Pomodoro.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#0F4C75">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock FontWeight="Bold" FontSize="48">Let's get it done!</TextBlock>
+        <TextBlock x:Name="Countdown" FontSize="48" HorizontalAlignment="Center"></TextBlock>
+    </StackPanel>
+</local:BasePage>
